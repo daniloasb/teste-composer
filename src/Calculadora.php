@@ -4,9 +4,9 @@ namespace Daniloasb\TesteComposer;
 
 class Calculadora{
     
-    public function soma($a, $b){  
+    public function soma(...$n){  
 
-        return $a+$b;
+        return array_sum($n);
     }
 
     public function subtracao($a, $b){  
