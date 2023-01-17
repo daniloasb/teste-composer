@@ -1,0 +1,17 @@
+{
+    "name": "daniloasb/teste-composer",
+    "description": "Teste",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Daniloasb\\TesteComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danilo"
+        }
+    ],
+    "require": {}
+}
